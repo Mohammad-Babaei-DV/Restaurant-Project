@@ -1,0 +1,247 @@
+body {
+    margin: 5px 0;
+    background-color: azure;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+
+
+
+/* =========this is for header erea======== */
+
+
+.sec1 {
+    background-image: url('Contact-us-img/Header.webp');
+    background-position: center;
+    width: 100%;
+    background-repeat: no-repeat;
+    border-radius: 30px 30px 0 0;
+    height: 30%;
+}
+
+nav {
+    background-color: rgba(166, 183, 218, 0.212);
+    margin: auto;
+    height: 15%;
+    border-radius: 30px 30px 0 0;
+}
+
+nav>ul {
+    list-style: none;
+    float: right;
+    margin: 3% 3% 3% 3%;
+}
+
+nav>ul>li {
+    display: inline-block;
+    margin: 0 auto;
+    font-weight: 500;
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+}
+
+.img1 {
+    width: 5%;
+    border-radius: 10px;
+    margin: 15px 0 10px 15px;
+    border: 3px solid lightgray;
+}
+
+.fig1 {
+    margin: 0;
+}
+
+.head1 {
+    margin: 17% auto 15% auto;
+    max-width: 600px;
+    width: 90%;
+    color: rgb(255, 254, 254);
+    background-color: rgba(202, 198, 226, 0.651);
+    text-align: center;
+    border-radius: 15px;
+}
+
+.head1>h1 {
+    font-size: 400%;
+}
+
+.arrowfig {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.arrowfig>img {
+    width: 8%;
+    height: 8%;
+}
+
+
+
+/*============ this is body erae ==========*/
+
+.main1 {
+    text-align: center;
+    margin: 50px auto;
+}
+
+.p1 {
+    width: 70%;
+    margin: 5% auto;
+    text-align: center;
+}
+
+hr {
+    margin: 10px 20% 20px 20%;
+}
+
+.sec3 {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 600px;
+    width: 90%;
+}
+
+.sec3>form{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.sec3>form>fieldset>legend {
+    font-size: 30px;
+    text-align: center;
+}
+
+.sec3>form>fieldset{
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    margin: 0 auto;
+    width: auto;
+}
+
+.sec3>form>fieldset>table{
+    margin: 50px auto;
+    padding: 5%;
+    border: 1px groove gray;
+    border-radius: 20px;
+    background-color: rgba(255, 235, 232, 0.842);
+}
+
+td{
+    padding: 2.5%;
+    border-style: groove;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+
+.tdL{
+    background-color: rgba(213, 218, 218, 0.562);
+    padding: 5px;
+}
+
+td>input,textarea,select{
+    border-radius: 7px;
+    border: 2px solid rgb(228, 222, 222);
+}
+
+#filee{
+    padding: 5px;
+    border: none;
+}
+
+textarea{
+    max-width:200px;
+    max-height: 200px;
+    height: 100px;
+    width: 90%;
+}
+
+/* +++++++++++++++++This is for footer eara +++++++++*/
+
+.sec4 {
+    width: auto;
+    background-color: antiquewhite;
+    border-radius: 0 0 30px 30px;
+    padding: 10px 0 40px 0;
+    margin: 70px 0 -50px 0;
+}
+
+.sec5 {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 10% 0 2%;
+}
+
+.sec5>figure {
+    text-align: left;
+    max-width: 90%;
+    width: 80%;
+}
+
+.sec5>figure>a>img {
+    max-width: 50px;
+    max-height: 50px;
+    width: 20px;
+    height: 20px;
+    margin: 0 5%;
+    vertical-align: middle;
+}
+
+.footera {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+.sec6 {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 15% 0 2%;
+}
+
+.footermain>section>ul {
+    text-align: center;
+}
+
+.footermain>section>ul>li {
+    list-style: none;
+    margin: 10px;
+}
+
+.footermain>section>ul>li>a {
+    text-decoration: none;
+    margin: 0;
+    color: black;
+    text-align: center;
+}
+
+
+
+
+.sec7 {
+
+    display: inline-block;
+    border: 1px solid rgb(118, 199, 247);
+    border-radius: 15px;
+}
+
+
+.sec7>iframe {
+
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    border: 3px dashed red;
+    max-width: 220px;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px;
+}
